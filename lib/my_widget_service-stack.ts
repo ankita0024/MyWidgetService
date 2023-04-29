@@ -1,12 +1,6 @@
-// import * as cdk from 'aws-cdk-lib';
-// import { Construct } from 'constructs';
-// import * as apigateway from 'aws-cdk-lib/aws-apigateway';
-// import * as lambda from 'aws-cdk-lib/aws-lambda';
 import * as path from 'path';
-// import * as dynamodb from 'aws-cdk-lib/aws-dynamodb';
 import * as cdk from '@aws-cdk/core';
 import * as apigateway from '@aws-cdk/aws-apigateway';
-// import * as apigatewayIntegrations from '@aws-cdk/aws-apigatewayv2-integrations';
 import * as lambda from '@aws-cdk/aws-lambda';
 import * as dynamodb from '@aws-cdk/aws-dynamodb';
 import { Function } from '@aws-cdk/aws-lambda';
